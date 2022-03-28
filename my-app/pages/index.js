@@ -114,11 +114,9 @@ export default function Home() {
     }
     else {
       return (
-        <div className={styles.button}>
-          <button onClick={connectWallet}>
-            Connect wallet
-          </button>
-        </div>
+        <button onClick={connectWallet} className={styles.button}>
+          Connect wallet
+        </button>
       )
     }
   };
